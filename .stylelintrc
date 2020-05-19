@@ -1,0 +1,18 @@
+{
+  "processors": [
+    "stylelint-processor-styled-components"
+  ],
+  "extends": [
+    "stylelint-config-standard",
+    "stylelint-config-styled-components",
+  ],
+  "plugins": [
+    "stylelint-order"
+  ],
+  "rules": {
+    "declaration-no-important": true,
+    "color-named": "never",
+    "order/properties-alphabetical-order": true,
+    "unicode-bom": null
+  }
+}
